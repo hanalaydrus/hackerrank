@@ -17,7 +17,7 @@ This repo contain my code that I use on hackerrank
 1. easy
    - camelCase.js
 2. medium
-   - sherlockAndAnagram.js
+   - sherlockAndAnagram.js (still timeout)
 3. hard
    - not yet
 
