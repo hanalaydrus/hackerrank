@@ -2,17 +2,18 @@
 
 This repo contain my code that I use on hackerrank
 
-### WarmUp
+### Algorithms
+#### WarmUp
 1. solveMeFirst.js
 2. timeConversion.js
 
-### Implementation
+#### Implementation
 1. easy
    - kangaroo.js
 2. medium
    - theTimeInWords.js
 
-### Strings
+#### Strings
 1. easy
    - camelCase.js
 2. medium
