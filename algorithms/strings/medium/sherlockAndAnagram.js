@@ -40,16 +40,16 @@ function processData(input) {
         var s = in_a[i];
         var subString = makeSubString(s);
         var count = 0;
-        for (i=0;i<subString.length;i++) {
-            if (subString[i] != -1) {
-                for (j=0;j<subString.length;j++) {
-                    if ((i != j) && (subString[j] != -1)){
-                        if (isAnagram(subString[i],subString[j]) == true) {
-                            count++;
-                            subString[i] = -1;
-                            subString[j] = -1;
-                        }
-                    }
+
+        for (var x=0;x<subString.length;x++){
+            for (var y=(x+1);y<subString.length;y++){
+                if((subString[x].length == subString[y].length) && (x != y)) {
+                   if (isAnagram(subString[x],subString[y]) == true) {
+                       count++;
+                       continue;
+                   }
+                } else {
+                    break;
                 }
             }
         }
