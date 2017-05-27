@@ -1,22 +1,24 @@
-HackerRank
+# HackerRank
 
 This repo contain my code that I use on hackerrank
 
-WarmUp
-|_ solveMeFirst.js
-|_ timeConversion.js
+### WarmUp
+1. solveMeFirst.js
+2. timeConversion.js
 
-Implementation
-|_ easy
-   |_ kangaroo.js
-|_ medium
-   |_ theTimeInWords.js
+### Implementation
+1. easy
+   - kangaroo.js
+2. medium
+   - theTimeInWords.js
 
-Strings
-|_ easy
-   |_ camelCase.js
-|_ medium
-   |_ sherlockAndAnagram.js
+### Strings
+1. easy
+   - camelCase.js
+2. medium
+   - sherlockAndAnagram.js
+3. hard
+   - not yet
 
    
 
